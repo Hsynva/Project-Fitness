@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&display=swap');
+:root {
+  --yasil: #a2ca28;
+  --qirmizi: #fd634e;
+}
+header {
+	position: relative;
+	height: 100vh;
+	background: url('../img/headerbg.jpg') center/cover;
+	text-align: center;
+}
+header div, header nav {
+	position: absolute;
+}
+header nav {
+	right: 50%;
+	top: 40px;
+	transform: translate(50%, 0);
+}
+header div {
+	bottom: 20vh;
+	right: 50%;
+	transform: translate(50%, 0);
+	width: 100%;
+}
+#menu a {
+  font: .8em Poppins, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+h1 {
+  font: 2em Poppins, sans-serif;
+  color: #FFF;
+  text-transform: uppercase;
+}
+h2 {
+  font: 1.5em 'Open Sans', sans-serif;
+  padding: 20px 0;
+}
+.text {
+  font: bold 1em 'Open Sans', sans-serif;
+  color: #FFF;
+  text-transform: uppercase;
+  
+}
+#articles  {
+	padding: 20px 0;
+}
+#articles article {
+	padding: 10px;
+}
+#fitness { background: url('../img/fitness.jpg') center/cover }
+#body { background: url('../img/body.jpg') center/cover }
+#grape { background: url('../img/grape.jpg') center/cover }
+#fruits { background: url('../img/fruits.jpg') center/cover }
+
+.container {max-width: 1180px; margin: auto; overflow: auto  }
+.bg-yasil { background: var(--yasil) }
+.bg-qirmizi { background: var(--qirmizi)}
+.bg-ag { background: #fff }
+.bg-qara { background: #0c1119 }
+.txt-yasil { color: var(--yasil) }
+.txt-qirmizi { color: var(--qirmizi)}
+.txt-ag { color: #fff }
+.h-50 { height: 50vh }
+.h-40 { height: 40vh }
+.txt-boz {color: #656e74}
+.damci{
+	color: #e3e9e9;
+	padding: 20px 0 20px 0;
+	}
+.yazi{
+	text-align: center;
+}
+.metn{
+	padding: 20px;
+}
+h5{
+font: 400 .9em Montserrat, sans-serif;
+}
+h3{
+
+font: 300 2em Open Sans, sans-serif;
+}
+
+.size{
+	padding: 0 0 15px 0;
+}
+#sekil{ background: url('../img/sekil.jpg') center/cover }
+
+
+#sea{background: url('../img/sea.jpg') center/cover }
+
+.summer{
+	padding: 50px 30px;
+}
+.fun{
+	padding: 0 0 10px 0;
+}
+
+.icon{
+	float: right;
+	color: #dfe5e5;
+	padding: 0 40px 0 0;
+}
+.padding{
+	padding: 40px 10px;
+}
+#son{
+	height: 100vh;
+	background: url('../img/son.jpg') center/cover;
+}
+	
+footer{
+	background: #0c1119;
+	height: 100vh;
+	width: 100%;
+}
+#dunya{
+	padding: 20px 0;
+}
+#dunya article{
+	padding: 10px;
+}
+article a i{
+	font-size: 3em;
+	padding: 5px;
+}
+.fa-facebook-square:hover { color: blue!important}
+.fa-twitter-square:hover { color: dodgerblue!important}
+.fa-youtube-square:hover { color: red!important}
+.fa-linkedin:hover { color: cornflowerblue!important}
+
+.input2{
+	height: 4vh;
+}
+
+@media only screen and (min-width: 768px) {
+	
+	header nav {
+		width: 100%;
+		padding: 0 50px;
+	}
+	#logo { float: left }
+	#menu {float: right }
+	#menu li { display: inline-block; padding: 20px; }
+	h1 { font-size: 2.5em }
+	h6 { text-align: right; padding: 0 60px 0 0;}
+	header div { 
+		width: inherit;
+		right: inherit;
+		transform: none;
+		left: 120px;
+	}
+	#articles { padding: 100px 0;}
+	#articles article {
+		width: 25%;
+		float: left;
+	} 
+	.row { overflow: auto }
+	.w-1 { width: 34% }
+	.w-2 { width: 66% }
+	.w-3 { width: 400px }
+	.left { float: left }
+	.right { float: right }
+
+	}
+	#dunya article{
+		max-width: 393px;
+		float: left;
+} 
+
+	#input{
+	float: right;
+	}
+}
